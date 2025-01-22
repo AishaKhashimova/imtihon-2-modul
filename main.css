@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+.header-link{
+    color: black;
+}
+ .header-li{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+ }
+ 
+ ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ .header-li2{
+    margin-top: 20px;
+ }
+.header-link2{
+    background-color: black;
+    color: white; 
+     font-size: 20px;
+     padding: 15px;
+     border-radius: 10px;
+     
+}
+.header-link2:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid 2px;
+
+}
+.card-all{
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+h2{
+    font-size: 56px;
+width: 450px;
+}
+.sec1-b{
+    margin-top: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #1AAB7B;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.sec1-b:hover{
+    color: #1AAB7B;
+    background-color: white;
+    border: 2px solid #1AAB7B;
+}
+h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+}
+h3{
+    margin: 30px 0 0 30px;
+    font-size: 37px;
+}
+.sec2-box{
+    margin-top: 20px;
+    padding: 10px;
+border:solid grey 2px;
+border-radius: 10px;
+    width: 380px;
+    height: 380px;
+}
+.sec2-box:hover{
+    color: white;
+    background-color: #1AAB7B
+    
+    
+}
+
+p{
+    margin: 20px 0 40px 30px;
+    font-size: 25px;
+    width: 320px;
+}
+.sec2-b{
+    margin-left: 30px;
+    font-size: 28px;
+    border: none;
+}
+.cardallsec2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.bg-img{
+    background-image: url(./image\ 1\ \(1\).png);
+    width: 100%;
+    height: 515px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec3{
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0 100px 550px;
+}
+.input{
+margin: 0 0 0 500px;
+    background-color: rgba(0, 0, 0, 0.73);
+padding: 60px;
+width: 515px;
+
+}
+.input-org{
+margin: 5px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+.but{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: white;
+    width: 200px;
+    background-color: #1AAB7B;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.but:hover{
+    color: #1AAB7B;
+    background-color: white;
+    border: 2px solid #1AAB7B;
+}
+footer{
+    padding: 40px 0;
+    background-color: black;
+}
+.footerallcard{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box{
+    display: flex;
+    gap: 10px;
+}
